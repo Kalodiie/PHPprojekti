@@ -1,0 +1,52 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="style.css" />
+    <title>Document</title>
+  </head>
+  <body>
+    <form action="akcija.php" method="post">
+      <table>
+        <tr>
+          <th>Lek</th>
+          <th>Kolicina</th>
+        </tr>
+        <tr>
+          <td><p>Aspirin</p></td>
+          <td><input type="number" name="nAspirin" id="iAspirin" /></td>
+        </tr>
+        <tr>
+          <td>
+            <p>Kafetin</p>
+          </td>
+          <td><input type="number" name="nKafetin" id="iKafetin" /></td>
+        </tr>
+        <tr>
+          <td>
+            <p>Panadol</p>
+          </td>
+          <td><input type="number" name="nPanadol" id="iPanadol" /></td>
+        </tr>
+        <tr>
+          <td>
+            <p>Kako ste saznali za nas?</p>
+          </td>
+          <td>
+            <select name="nInfo" id="">
+              <option value="prijatelj">Prijatelj</option>
+              <option value="tv">TV</option>
+              <option value="letak">letak</option>
+              <option value="etc"></option>
+            </select>
+          </td>
+        </tr>
+        <tr>
+          <td><input type="submit" value="Posalji" /></td>
+        </tr>
+      </table>
+    </form>
+  </body>
+</html>
