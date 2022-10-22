@@ -4,9 +4,27 @@
     ?>
 </style>
 <?php
-$aspirin = $_POST[ 'nAspirin' ] * 150;
-$kafetin = $_POST[ 'nKafetin' ] * 210;
+if($_POST['nAspirin']!= ''){
+    
+    $aspirin = $_POST[ 'nAspirin' ] * 150;
+}
+else{
+    $aspirin = 0;
+}
+if($_POST['nKafetin']!= ''){
+    $kafetin = $_POST[ 'nKafetin' ] * 210;
+}
+else{
+    $kafetin = 0;
+}
+if($_POST['nPanadol']!= ''){
+    
 $panadol = $_POST[ 'nPanadol' ] * 290;
+}
+else{
+    $panadol = 0;
+}
+
 $survey = $_POST[ 'nInfo' ];
 $cena = $aspirin + $kafetin + $panadol;
 define( 'porez', 1.08 );

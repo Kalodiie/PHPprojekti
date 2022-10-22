@@ -2,13 +2,19 @@
 *{
     text-align: center;
 }
+body{
+    
+    background-color: rgb(176, 188, 152);
+}
 
 table {
-    border: 2px solid black;
+    border: 5px solid #EFCFE3;
+    border-radius: 3%;
     margin: auto;
     margin-top: 10%;
     padding: 0px 10px;
     font-size: 3vh;
+    background-color: #008df8b6;
 }
 
 body > p{
