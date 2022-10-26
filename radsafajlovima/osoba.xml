@@ -1,0 +1,10 @@
+<?xml version='1.0' encoding='UTF-8'?>
+    <pet>
+        <name>Anka</name>
+        <age>3</age>
+        <species>Sova</species>
+        <parents>
+            <mother>Senidah Sova</mother>
+            <father>Voyage Sova</father>
+        </parents>
+    </pet>
